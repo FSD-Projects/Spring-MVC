@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<%@ page isELIgnored="false" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +13,7 @@
 </head>
 <body>
 <h2>Registration Forms</h2>
-<a href="/student/showForm">Student form</a><br/>
-<a href="/customer/showForm">Customer form</a>
+<a href="${pageContext.request.contextPath}/student/showForm">Student form</a><br/>
+<a href="${pageContext.request.contextPath}/customer/showForm">Customer form</a>
 </body>
 </html>
